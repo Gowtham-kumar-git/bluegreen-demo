@@ -15,7 +15,7 @@ spec:
         version: green
     spec:
       containers:
-      - name: green-container
+      - name: demo
         image: gowthamkumar040319/bluegreen-demo:green
         ports:
         - containerPort: 80
